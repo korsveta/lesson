@@ -13,7 +13,7 @@ var text='Happy';
 let name='Sveta';
 const programming="JavaScript";
 
-name='Maxim';
+name='Anna';
 text='End';
 
 console.log(text);
