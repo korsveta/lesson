@@ -1,7 +1,7 @@
 // Задание №1
 const st='Привет Света';
-const num='22';
-const bool='true';
+const num=22;
+const bool=true;
 const bd=null;
 const car=undefined;
 const ofv= {
@@ -20,4 +20,15 @@ console.log('ofv', ofv, typeof ofv);
 console.log('symb', symb, typeof symb);
 console.log('big', big, typeof big);
 
+// Задание №2
+let a = 5;
+let b = '100';
+let c = true;
 
+a = '5';
+b = 100;
+c = null;
+
+alert(a);
+alert(b);
+alert(c);
