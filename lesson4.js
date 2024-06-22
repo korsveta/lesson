@@ -21,7 +21,30 @@ let ofv= {
 console.log(Number(ofv), Boolean(ofv), String(ofv));
 
 let symb=Symbol('id');
-console.log(Number(symb), Boolean(symb), String(symb));
+console.log( Boolean(symb), String(symb));
 
 let big=BigInt(10050);
 console.log(Number(big), Boolean(big), String(big));
+
+// Задание №2
+console.log(Number('10'), typeof Number('10')); // явное
+
+console.log(+'50'); //1 - неявное
+
+console.log(Number('100')); //2 - явное
+
+console.log('' + 1); //3 - неявное
+
+console.log(String(1)); //4 - явное
+
+console.log(Boolean(0)); //5 - явное
+
+console.log(+'001'); //6 - неявное
+
+console.log(1 + ''); //7 - неявное
+
+console.log(Boolean(1)); //8 - явное
+
+console.log(String(001)); //9 - явное
+
+console.log(Number('Hello World')); //10 - явное
