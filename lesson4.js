@@ -45,7 +45,7 @@ console.log(1 + ''); //7 - неявное
 
 console.log(Boolean(1)); //8 - явное
 
-console.log(String(001)); //9 - явное
+console.log(String('001')); //9 - явное
 
 console.log(Number('Hello World')); //10 - явное
 
@@ -89,3 +89,25 @@ console.log('-105');
 console.log(String('-105'));
 console.log(Number('-105'));
 console.log(Boolean('-105'));
+
+// Задание №4
+// 1
+console.log(Number(' 1 2 3 4 5'));
+// 2
+console.log(Number('1234 5'));
+// 3
+console.log(Number('12345'));
+// 4
+console.log(String(false));
+// 5
+console.log(Boolean(0000000));
+// 6
+console.log(Boolean(0.0000001));
+// 7
+console.log(String(undefined));
+// 8
+console.log(Number('100f'));
+// 9
+console.log(Number('100'));
+// 10
+console.log(Number('000001'));
